@@ -380,6 +380,10 @@
         position: relative;
     }
 
+    .testi .carousel-inner img{
+        border-radius:50% ;
+    }
+
     .testi  .overlay{
         position: absolute;
         z-index: 2;
