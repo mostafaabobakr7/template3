@@ -1,8 +1,12 @@
 /*global $,*/
 $(function () {
     'use strict';
-// nice scroll:
-    $('html').niceScroll();
+
+// Navbar:
+    $('.navbar .collapse ul li ').on('click',function(){
+        $(this).firstChild().addClass('active').siblings().removeClass('active');
+    });
+
 // ...............................................
 // slider height:
     var winH = $(window).height(),

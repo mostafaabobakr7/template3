@@ -1,6 +1,4 @@
 *{perspective:600px;}
-@font-face{font-family:Nunito;src:url('../fonts/Nunito.ttf');}
-@font-face{font-family:Lato;src:url('../fonts/Lato');}
 .upperbar{background-color:#08526d;color:#FFF;font-weight:bold;}
 .upperbar .info{margin:15px 0;}
 @media(max-width:575px){.upperbar .info:first-child{margin:0;}
